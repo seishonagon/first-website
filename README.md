@@ -1,22 +1,7 @@
 
-This project is the first website creation
-
-## Setup
-
-For now, the index.html page lives in the repo on its own.
-To preview, run
-
-```python
-python3 -m http.server 8000
-```
-
-from the local directory, and go to `https:localhost:8000`
-
-
-
 
 <!-- Every README should start with an H1 -->
-# FIRST-WEEBSITE Project README
+# FIRST-WEBSITE Project README
 <!-- A one sentence description of the project or assignment -->
 The First_Website is Assignment One of the DXD Course found [here](https://github.com/itp-dwd/2020-spring). This is also my first README, using [this template](https://github.com/itp-dwd/2020-spring/blob/master/templates/readme-template.md)
 
@@ -28,16 +13,24 @@ From the assignment brief:
 >Your task this week is to code a "simple" website using HTML and CSS. The goal of this assignment is to begin your practice of the web development and deployment process.
 
 >Your focus should be to get into the habit and practice of integrating git tracking into your workflow and exploring as much of the features of HTML as possible, displaying your understanding of the DOM tree and creative uses of the CSS knowledge you have so far.
-
 >The mantra this week is:
 
 >``` markdown
 > code → track → sync → deploy (repeat)
 
-> ``````
+> ```
 
 <!-- It is essential to describe how to set up your project -->
 ## Setup
+
+For now, the index.html page lives in the repo on its own.
+To preview, run
+
+```python
+python3 -m http.server 8000
+```
+
+from the local directory, and go to `https:localhost:8000`
 
 <!-- Any knowledge or tools you will need before hand -->
 ### Prerequisites
