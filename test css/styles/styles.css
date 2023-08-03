@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 800px) {
+  .flex-container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Desktop styles go here */
+}
+
+.container {
+  max-width: 900px;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 900px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Desktop styles go here */
+}
+
+.card {
+  max-width: 300px;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 10px;
+}
+@media screen and (min-width: 800px) {
+  .card {
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+  }
+  /* Desktop styles go here */
+}
+
+.card:hover {
+  border: 1px solid blue;
+  background-color: aquamarine;
+}
+
+.card__reference {
+  font-weight: 800;
+}
+
+.card__reference:hover {
+  font-weight: 800;
+  color: red;
+}
+
