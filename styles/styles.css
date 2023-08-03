@@ -7,6 +7,22 @@ html {
   box-sizing: inherit;
 }
 
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Desktop styles go here */
+}
+
 .flex-container {
   flex-direction: row;
   display: flex;
@@ -15,32 +31,20 @@ html {
   flex-basis: 0%;
   flex-wrap: wrap;
 }
+
 @media screen and (min-width: 800px) {
   .flex-container {
-    max-width: 900px;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    flex-wrap: wrap;
     padding: 0 20px;
     margin-left: auto;
-    margin-right: auto;
-  }
-  /* Desktop styles go here */
-}
-
-.container {
-  max-width: 900px;
-  padding: 0 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 800px) {
-  .container {
-    max-width: 900px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* Desktop styles go here */
-}
+    margin-right: auto; */
+   } 
+ }  
 
 .card {
   max-width: 300px;
@@ -48,6 +52,7 @@ html {
   padding: 5px;
   margin: 10px;
 }
+
 @media screen and (min-width: 800px) {
   .card {
     max-width: 400px;
@@ -65,10 +70,10 @@ html {
 
 .card__reference {
   font-weight: 800;
+  color: teal;
 }
 
 .card__reference:hover {
   font-weight: 800;
   color: red;
 }
-

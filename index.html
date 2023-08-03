@@ -1,16 +1,24 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/normalize.min.css" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla|Libre+Baskerville:400,400i"
+      rel="stylesheet"
+    />
+
   </head>
   <!-- <body class="container"> -->
-  <body>
+  <body class="container">
     <h1>Zettelkasten</h1>
     <p>I hope you have a great day But then, why would you</p>
     <section class="flex-container">
       <div class="card">
-        <p>9/8</p>
+        <p class="card__reference">9/8</p>
         <p>
           Zettelkasten as a cybernetic system. Combination of disorder and
           order, of lump formation, and unexpected, in ad hoc access realised
@@ -21,21 +29,21 @@
         </p>
       </div>
       <div class="card">
-        <p>(9/8a)</p>
+        <p class="card__reference">(9/8a)</p>
         <p>
           The productivity problem has to be based on a relation, namely on the
           relation of Zettelkasten and user.
         </p>
       </div>
       <div class="card">
-        <p>(9/8a1)</p>
+        <p class="card__reference">(9/8a1)</p>
         <p>
           The Zettelkasten has grown incessantly, and I have tried, to the best
           of my ability, to profit from it.(1)
         </p>
       </div>
       <div class="card">
-        <p>(9/8a2)</p>
+        <p class="card__reference">(9/8a2)</p>
         <p>
           Zettelkasten as a septic tank - don't put just treated notes in.
           Suspending of examination and decision making- also a question of
@@ -43,7 +51,7 @@
         </p>
       </div>
       <div class="card">
-        <p>(9/8b)</p>
+        <p class="card__reference">(9/8b)</p>
         <p>
           On the general organisation of memory see Ashby 1967, p103. It is
           therefore important that one is not dependent on a myriad of
@@ -53,7 +61,7 @@
         </p>
       </div>
       <div class="card">
-        <p>(9/8b1)</p>
+        <p class="card__reference">(9/8b1)</p>
         <p>
           Because of the previous point it is important that the order in the
           Zettelkasten is not aggregated merely under terms or complex single
@@ -64,7 +72,7 @@
         </p>
       </div>
       <div class="card">
-        <p>(9/8b2)</p>
+        <p class="card__reference">(9/8b2)</p>
         <p>
           “Multiple storage” as the necessity of storing complex (to be
           evaluated in a complex way) information.
@@ -72,7 +80,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8c)</p>
+        <p class="card__reference">(9/8c)</p>
         <p>
           Something to consider would be the problem of interdependence
           interruption.
@@ -80,7 +88,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8d)</p>
+        <p class="card__reference">(9/8d)</p>
         <p>
           Feedback loop for reading: one reads differently if one is mindful of
           the possibilities of the Zettelkasten process - not: excerpts!
@@ -88,7 +96,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8e)</p>
+        <p class="card__reference">(9/8e)</p>
         Possibly, recourse to the concept of information that presupposes
         selection horizons, comparison schemes, etc. which cannot be
         predetermined. Therefore, the Zettelkasten becomes productive as it
@@ -97,7 +105,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8f)</p>
+        <p class="card__reference">(9/8f)</p>
         <p>
           A unified effect is created when channeling in appropriate ways into
           the social system. Impression of a mentally muscular overall
@@ -106,7 +114,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8g)</p>
+        <p class="card__reference">(9/8g)</p>
         <p>
           The Zettelkasten Method is based on this experience: One cannot think
           without writing - at least not in demanding contexts that anticipate
@@ -116,7 +124,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8h)</p>
+        <p class="card__reference">(9/8h)</p>
         <p>
           Comments on registration of knowledge in the Royal Society in Sprat
           1667, p. 115f. Abandonment of hasty systematization and closure,
@@ -126,7 +134,7 @@
         </p>
       </div>
       <div class="card">
-        <p>(9/8i)</p>
+        <p class="card__reference">(9/8i)</p>
         <p>
           All arbitrary ideas, all coincidences of readings, can be brought in.
           The internal connectivity then decides.
@@ -134,7 +142,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8j)</p>
+        <p class="card__reference">(9/8j)</p>
         <p>
           There is a note in the Zettelkasten that contains the argument that
           refutes the claims on every other note. But this note disappears as
@@ -145,14 +153,14 @@
       </div>
 
       <div class="card">
-        <p>(9/8,1)</p>
+        <p class="card__reference">(9/8,1)</p>
         Topic: Communication with the Zettelkasten: How to get an adequate
         partner, junior partner? – important after working with staff becomes
         more and more difficult and expensive. Zettel’s reality
       </div>
 
       <div class="card">
-        <p>(9/8,2)</p>
+        <p class="card__reference">(9/8,2)</p>
         <p>
           Personnel has been scarce and expensive for a long time, now it
           additionally becomes unruly and unmanageable. Microprocessors have
@@ -163,7 +171,7 @@
       </div>
 
       <div class="card">
-        <p>(9/8,3)</p>
+        <p class="card__reference">(9/8,3)</p>
         <p>
           Ghost in the box? Spectators visit. They get to see everything, and
           nothing but that - like in a porn movie. And the disappointment is
